@@ -7,6 +7,7 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:fitsSystemWindows="true"
+        android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -121,6 +122,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:clickable="true"
+        android:elevation="6dp"
         android:contentDescription="@string/action_share"
         android:src="@drawable/ic_share"
         app:layout_anchor="@id/appbar"
